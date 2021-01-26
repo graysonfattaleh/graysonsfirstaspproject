@@ -1,0 +1,95 @@
+﻿body {
+    background-color: #BCF1FF;
+}
+.row {
+    width: 50%;
+    min-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.center_text{
+    text-align: center;
+}
+
+.inline_container{
+    height:auto;
+    display: block;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round_corners{
+    border-radius:15px;
+}
+.left_half{
+    text-align:right;
+    align-content:right;
+    width:49%;
+    float:left;
+}
+
+.right_half {
+    width: 49%;
+    float: right;
+    align-content: left;
+}
+
+.calculator{
+    width:50%;
+    min-width:300px;
+    align-content:right;
+    border: solid black 2px;
+    border-radius:15px;
+    padding:15px;
+    text-align:center;
+    background-color: rgba(208,208,208,0.4);
+    margin-top:20px;
+    
+}
+
+input{
+    width: 150px;
+}
+
+.btn{
+    margin-top: 11px;
+    background-color: rgb(255,248,17);
+    border: solid black 0px;
+    padding:2px;
+    border-radius:2px;
+}
+
+nav_item{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav_item:hover{
+    font-size:16px;
+    color:pink;
+}
+a:hover {
+    font-size: 16px;
+    color: pink;
+}
+a:visited {
+    color:none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.error_message {
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="shortcut icon" href="img/pot.svg" type="image/svg" />
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+    <header>
+        <ul >
+            <li class="nav_item">
+                <a asp-controller ="Home" asp-action ="Index">Home</a>
+            </li>
+            <li class="nav_item">
+                <a asp-controller ="Home" asp-action ="Calculator">Calculator</a>
+</li>
+        </ul>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/scripts.js"></script>
+</body>
+</html>
